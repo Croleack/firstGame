@@ -17,7 +17,16 @@ class ConcentrationGame {
             
             /*
              code code
-             code 
+             code
+             code
+             code
+             code
+             */
+            
+            /*
+             
+             reliz 2
+             
              */
             
             
