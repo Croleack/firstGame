@@ -31,13 +31,6 @@ class ConcentrationGame {
 //            }
 //            return foundIndex
 //
-            /*
-             cdjhckjdh
-             cdhkcbkd
-             cdhjcdj
-             delete
-             vdv
-             */
             
         }
         set {
