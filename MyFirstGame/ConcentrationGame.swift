@@ -15,37 +15,29 @@ class ConcentrationGame {
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
             
+            cards.indices.filter { cards[$0].isFaceUp}.oneAndOnly
+            //если у нас 1 перевернутая карта то мы возвращаем его Ферст, иначе верни Нил
+//            return faceUpCardIndices.count == 1 ? faceUpCardIndices.first : nil
+            
+//            var foundIndex: Int?
+//            for index in cards.indices {
+//                if cards[index].isFaceUp {
+//                    if foundIndex == nil {
+//                        foundIndex = index
+//                    } else {
+//                        return nil
+//                    }
+//                }
+//            }
+//            return foundIndex
+//
             /*
-             code code
-             code
-             code
-             code
-             code
+             cdjhckjdh
+             cdhkcbkd
+             cdhjcdj
+             delete
+             vdv
              */
-            
-            /*
-             
-             reliz 2
-             
-             */
-            
-            
-            
-            
-            
-            var foundIndex: Int?
-            for index in cards.indices {
-                if cards[index].isFaceUp {
-                    if foundIndex == nil {
-                        foundIndex = index
-                    } else {
-                        return nil
-                    }
-                }
-            }
-            return foundIndex
-            
-            
             
         }
         set {
@@ -84,6 +76,12 @@ class ConcentrationGame {
             }
         }
         
-        
     }
 
+extension Collection {
+    
+    var oneAndOnly: Element? {
+        return count == 1 ? first : nil
+    }
+    
+}
